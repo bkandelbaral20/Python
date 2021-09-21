@@ -1,0 +1,10 @@
+## Codelab Coding exercises 
+# Reading input from Keyboard 
+1. Use 3 different variables that holds 3 different values from standadrd input- an integer, a double, and a string respectively. On on eline, print this variable in reverse order with exactly one space between each. on second line, print them in original order
+
+// input is always in string so we need to parse it values
+k = int(input()) 
+d = float(input())
+s = input()
+print(s,d,k) // printing in reverse order
+print(k,d,s) // original order
